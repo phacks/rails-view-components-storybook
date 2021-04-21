@@ -18,5 +18,10 @@ module RailsViewComponentsStorybook
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    require "view_component/storybook/engine"
+
+    # Enable ViewComponents previews
+    config.view_component.show_previews = true
   end
 end

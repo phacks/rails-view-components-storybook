@@ -177,6 +177,8 @@ GEM
       concurrent-ruby (~> 1.0)
     view_component (2.30.0)
       activesupport (>= 5.0.0, < 7.0)
+    view_component_storybook (0.8.0)
+      view_component (>= 2.2)
     web-console (4.1.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -217,6 +219,7 @@ DEPENDENCIES
   turbolinks (~> 5)
   tzinfo-data
   view_component
+  view_component_storybook
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)

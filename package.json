@@ -10,6 +10,11 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@storybook/addon-controls": "^6.2.8",
+    "@storybook/server": "^6.2.8",
     "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "storybook:build": "build-storybook -o public/_storybook"
   }
 }
