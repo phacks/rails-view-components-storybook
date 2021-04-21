@@ -1,4 +1,20 @@
 <article class="prose m-24">
   <h1>ViewComponents kitchen sink</h1>
   <p>This page will demo our ViewComponents</p>
+
+  <h2>ButtonComponent</h2>
+  <h3>Primary</h3>
+  <%= render(ButtonComponent.new(type: :primary)) do %>
+    Submit
+  <% end %>
+
+  <h3>Outline</h3>
+  <%= render(ButtonComponent.new(type: :outline)) do %>
+    Cancel 
+  <% end %>
+
+  <h3>Danger</h3>
+  <%= render(ButtonComponent.new(type: :danger)) do %>
+    Delete
+  <% end %>
 </article>
